@@ -1,0 +1,384 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-10T12:47:00.593Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2424800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parata.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Mapping imported columns to Tool Name format",
+        "description": "",
+        "id": "base-functionality-for-import-wizard-mapping;mapping-imported-columns-to-tool-name-format",
+        "after": [
+          {
+            "result": {
+              "duration": 641533800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parata.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70172935300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logged in TacoUI with \"IM\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IM\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.parata.steps.LoginPageSteps.userLoggedInTacoUIWithCredentials(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7253692400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks ImplementaionMgmt icon",
+            "match": {
+              "location": "com.parata.steps.ImplementationMPageSteps.implementaionMgmtClicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2037932500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user will land \"im-tool\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"im-tool\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.parata.steps.ImplementationMPageSteps.userWillLandPage(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9216320700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks Project Status dropdown",
+            "match": {
+              "location": "com.parata.steps.ImplementationMPageSteps.userClicksAllRolesDropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9361714500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select \u0027NotProcessed\u0027 project status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027NotProcessed\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.parata.steps.ImplementationMPageSteps.selectRole(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9285759700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click import button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.clickImportButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2086711800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click browse button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.clickBrowseButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19217158600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click update button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.clickUploadButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9204294200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks Production Drug dropdown",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userClicksDrugMapDropdown1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9429646300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "select \u0027Product Name\u0027 from drug dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Product Name\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.selectDrugProducName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9218473600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks NDC from Drug dropdown",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userClicksDrugMapDropdown2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9300565300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "select \u0027NDC11\u0027 NDC from drug dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027NDC11\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.selectDrugNdcName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9230918700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks Rx from drug dropdown",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userClicksDrugMapDropdown3()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9338863900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "select \u0027Rx Count\u0027 Rx from drug dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Rx Count\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.selectDrugRxName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9344765800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click next button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userClicksNextButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9208453000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should select device type dropdown",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userShouldSelectDeviceType()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9369652100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "select \"Max 2 110/44/2\u003d156\" device option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Max 2 110/44/2\u003d156\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.selectDeviceOption1(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9200023800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user select standard radio button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userSelectStandardRadioButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9210262100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user checked exclude drug button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userCheckdExcludeDrugButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9226867100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user checked exclude schedule button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userCheckdExcludeScheduleButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9205448700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user checked exclude unit of usage button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userCheckdchkExcludeUnitOfUsageButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9223871200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user checked exclude schedule button1",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userCheckdExcludeScheduleButton1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9170411000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user select unit of age radio button",
+            "match": {
+              "location": "com.parata.steps.ImportWizerdMapImportedSteps.userSelectUnitOfAgeRadioButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@btest"
+          },
+          {
+            "name": "@positive"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Base Functionality For Import Wizard Mapping",
+    "description": "",
+    "id": "base-functionality-for-import-wizard-mapping",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ImplementaionMgmt/ImportWizerdMapImported.feature",
+    "tags": [
+      {
+        "name": "@btest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
